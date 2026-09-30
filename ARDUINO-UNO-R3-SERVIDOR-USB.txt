@@ -1,0 +1,8 @@
+VoltKey ARDUINO TEST 1.2 (base Alpha 1.12.0)
+Servidor fisico Arduino UNO R3 mediante pasarela USB-Internet
+
+Identificador de firmware: UNO-SERVER-USB
+Indicador de tarjeta: D2-D13 configurable; fijo presente, parpadeo por corte o cuenta regresiva, apagado al finalizar
+Salidas fisicas iniciales: GENERAL D12, 1ER PISO D11 y 2DO PISO D10; configurables D2-D12
+Indicadores: el LED de cada canal del relay shield sigue el circuito de la aplicacion
+Version base de aplicacion y firmware: 1.12.0

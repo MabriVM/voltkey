@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "VoltKey Alpha Arduino 2.1.0",
+    "slug": "voltkey-arduino-test",
+    "scheme": "voltkeyarduinotest",
+    "version": "2.1.0",
+    "icon": "./assets/voltkey-icon.png",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#020918",
+    "splash": {
+      "image": "./assets/voltkey-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#020918"
+    },
+    "platforms": [
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.majuub.voltkeyarduinotest",
+      "versionCode": 5,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/voltkey-icon.png",
+        "backgroundColor": "#061B48"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "backgroundColor": "#020918",
+      "favicon": "./assets/voltkey-icon.png"
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-font",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "VoltKey necesita acceder a tus fotos para adjuntar la placa o ficha técnica de un circuito.",
+          "cameraPermission": "VoltKey necesita usar la cámara para fotografiar la placa o ficha técnica de un circuito.",
+          "microphonePermission": false
+        }
+      ]
+    ]
+  }
+}

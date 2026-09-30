@@ -1,0 +1,28 @@
+VOLTKEY ARDUINO TEST 1.2
+Base de aplicación y firmware: VoltKey Alpha 1.12.0
+
+Esta edición de laboratorio es independiente de VoltKey Alpha normal.
+
+Circuitos físicos:
+1. GENERAL     - D12 - relé/LED del canal 1
+2. 1ER PISO    - D11 - relé/LED del canal 2
+3. 2DO PISO    - D10 - relé/LED del canal 3
+
+El indicador de tarjeta comienza en D13, pero puede cambiarse entre D2 y D13.
+Con tarjeta y red queda fijo; durante un corte o la cuenta regresiva parpadea;
+cuando termina la cuenta regresiva se apaga.
+La tarjeta comienza habilitada.
+El computador transporta Internet por USB; el UNO conserva el estado físico.
+
+La pestaña Tutorial explica el propósito y la demostración de VoltKey. Puede
+ocultarse en Ajustes para conservar las cinco ventanas principales. VoltKids
+dispone de un Ajustes limitado para volver al administrador mediante PIN y ya
+puede permanecer tanto en Ajustes como en Tutorial.
+
+Antes de iniciar:
+1. Ejecuta Actualizar-Arduino.cmd.
+2. Ejecuta Probar-Arduino.cmd y observa los tres LED del shield.
+3. Ejecuta Iniciar-VoltKey.cmd.
+4. Controla y compara APP con RELÉ/LED desde la pestaña Circuitos.
+
+No conectes 220/230 V directamente al Arduino ni a una placa de prueba.

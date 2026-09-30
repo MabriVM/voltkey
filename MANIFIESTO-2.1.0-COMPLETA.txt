@@ -1,0 +1,18 @@
+VOLTKEY ALPHA ARDUINO 2.1.0 — VERSIÓN COMPLETA
+
+Tipo de entrega: paquete completo e independiente.
+No requiere copiar previamente la versión 2.0.0 ni aplicar el parche incremental 2.1.0.
+
+Esta compilación se construyó a partir de:
+- VoltKey Alpha Arduino 2.0.0 COMPLETA
+- VoltKey Alpha Arduino 2.1.0 INCREMENTAL
+
+Incluye el proyecto de aplicación, servidor Python, integración Arduino UNO R3,
+firmware, scripts, recursos y pruebas vigentes de la rama 2.1.0.
+
+Versión visible de la aplicación: VoltKey Alpha Arduino 2.1.0
+Android versionCode: 5
+Edición física compatible: ARDUINO TEST 1.2
+
+Nota: las referencias técnicas internas necesarias para mantener compatibilidad
+con el protocolo del Arduino no se presentan como "base" visible al usuario.

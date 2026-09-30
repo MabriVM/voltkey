@@ -1,0 +1,42 @@
+{
+  "name": "voltkey-arduino-test",
+  "version": "2.1.0",
+  "edition": "arduino-test-1.2",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "web": "expo start --web",
+    "server": "python -m uvicorn servidor.voltkey_server:app --host 0.0.0.0 --port 8000",
+    "system": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/Iniciar-Sistema.ps1",
+    "check": "expo-doctor",
+    "build:apk": "eas build -p android --profile preview",
+    "build:aab": "eas build -p android --profile production"
+  },
+  "dependencies": {
+    "@expo-google-fonts/inter": "^0.4.2",
+    "@expo-google-fonts/orbitron": "^0.4.2",
+    "@expo-google-fonts/rajdhani": "^0.4.1",
+    "@expo-google-fonts/space-mono": "^0.4.2",
+    "@expo/metro-runtime": "~5.0.5",
+    "@expo/vector-icons": "^14.1.0",
+    "@react-native-async-storage/async-storage": "2.1.2",
+    "expo": "~53.0.0",
+    "expo-asset": "~11.1.7",
+    "expo-audio": "~0.4.9",
+    "expo-file-system": "~18.1.11",
+    "expo-font": "~13.3.2",
+    "expo-image-picker": "~16.1.4",
+    "expo-sharing": "~13.1.5",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-native": "0.79.6",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-web": "^0.20.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@expo/ngrok": "^4.1.3"
+  }
+}

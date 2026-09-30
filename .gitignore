@@ -1,0 +1,11 @@
+node_modules/
+.expo/
+.env
+.alpha-runtime/
+.voltkey-runtime/
+servidor/data/
+dist/
+dist-android/
+*.log
+__pycache__/
+*.pyc

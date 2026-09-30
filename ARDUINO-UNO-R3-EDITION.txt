@@ -1,0 +1,19 @@
+VoltKey ARDUINO TEST 1.2 - base Alpha 1.12.0
+
+Esta variante conserva la base Alpha 1.12.0 y anade:
+- estado autoritativo de tarjeta y tres circuitos en el UNO;
+- General como salida maestra para Primer y Segundo piso;
+- configuracion de pines, prueba guiada y parada de emergencia;
+- persistencia EEPROM y demora del tarjetero en el firmware;
+- pasarela Python USB-Internet con deteccion automatica;
+- indicador de tarjeta configurable D2-D13, activo HIGH/LOW, fijo con tarjeta,
+  parpadeo por corte/cuenta regresiva y apagado al finalizar;
+- un LED de relay shield por circuito, inicialmente en D12, D11 y D10;
+- confirmacion fisica antes de aceptar el cambio en la aplicacion;
+- panel del prototipo dentro de Circuitos;
+- sexta pestaña Tutorial ocultable desde Ajustes;
+- Ajustes VoltKids limitado con salida protegida mediante PIN y navegación estable
+  en Ajustes/Tutorial.
+
+El computador continua siendo necesario como pasarela de Internet. El UNO R3
+no debe conectarse directamente a 220/230 V.
