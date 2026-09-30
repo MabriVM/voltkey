@@ -1,5 +1,7 @@
 # 🧠 JARVIS.md — Memoria del Asistente
 
+> 📍 **Ubicación**: este archivo vive en la RAÍZ del repo `github.com/MabriVM/voltkey` (desde 2026-09-30). Si lo estás leyendo desde otro PC, ya tienes la memoria más reciente después de un `git pull`.
+
 > **PROTOCOLO OBLIGATORIO**: Al iniciar CUALQUIER sesión, leer este archivo completo antes de responder.
 > Al finalizar una sesión con avances, ACTUALIZAR las secciones 4 y 6 y hacer `git push`.
 > **Este archivo vive en el repositorio Git — es memoria compartida entre los PCs y Bionics de Mabri.**
